@@ -18,6 +18,7 @@
     --logo-color:#4d5ae5 ;  
     --footer-text-color:#F4F4FD;
     --color-hover:#404bbf; 
+    --color-icon:#8e8f99;
 }
 
 body {
@@ -320,12 +321,12 @@ svg{
     gap: 24px; 
 }
 
-social-network-item{
+.social-network-item{
     width: 40px;
     height: 40px;
 }
 
-.social-network-links{
+.social-network-link{
     width: 100%;
     height: 100%;
     background-color: var(--logo-color);
@@ -333,20 +334,17 @@ social-network-item{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
 }
 
-.social-network-links:hover,
-.social-network-links:focus{
-    background-color: var(--color-hover);
+.social-network-link:hover,
+.social-network-link:focus{
+    background-color:var(--color-hover);
 }
 
 
 .social-network{
-    fill: var(--footer-text-color);
+    fill:var(--footer-text-color);
 }
-
 
 .name{
     text-align: center;
@@ -358,12 +356,67 @@ social-network-item{
     margin-bottom: 8px;
 }
 
+/**
+  |============================
+  | Customers section
+  |============================
+*/
+
+.customers-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-logo{
+    display: flex;
+    gap: 24px;
+}
+
+.customers-item{
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.customers-link{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-icon);
+    padding: 16px 32px;
+}
+
+.customers-link:hover,
+.customers-link:focus{
+    border-color:var(--color-hover);
+    color: var(--color-hover);
+}
+
+.clients{
+    fill: currentColor;
+}
+
 
 /**
   |============================
   | FOOTER
   |============================
 */
+
+.footer-page {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.footer-content{
+    margin-right: 120px;
+}
+
+
 .footer{
     background-color:var(--dark-bg-color);
     padding: 100px 0 100px;
@@ -397,6 +450,16 @@ social-network-item{
     color: var(--footer-text-color);
     max-width: 264px;
 }
+
+.social-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+
 
 /**
   |============================
