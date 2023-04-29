@@ -333,9 +333,11 @@ svg{
     justify-content: center;
 }
 
-.social-network-link:hover,
+.social-network-link:hover{
+    background-color:#404BBF;
+}
 .social-network-link:focus{
-    background-color: #404BBF;
+    background-color:currentColor;
 }
 
 .social-network{
@@ -384,7 +386,7 @@ svg{
 
 .customers-link:hover,
 .customers-link:focus{
-    border-color:#404BBF;
+    border-color:currentColor;
     color:#404BBF;
 }
 
@@ -471,9 +473,11 @@ svg{
     justify-content: center;
 }
 
-.social-media-link:hover,
-.social-media-link:focus{
+.social-media-link:hover{
     background-color: #31d0aa;
+}
+.social-media-link:focus{
+    background-color:currentColor;
 }
 
 .social-media{
