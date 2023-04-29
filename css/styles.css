@@ -309,11 +309,10 @@ svg{
 
 .card-content{
     padding-top: 32px;
-    padding-bottom: 32px;
-  
+    padding-bottom: 32px; 
 }
 
-.traling-icons{
+.traling-icons{ 
     display: flex;
     justify-content: center;
     gap: 24px; 
@@ -341,6 +340,7 @@ svg{
 
 .social-network{
     fill:var(--footer-text-color);
+    padding: 12px;
 }
 
 .name{
@@ -478,6 +478,7 @@ svg{
 
 .social-media{
     fill: var(--footer-text-color);
+    padding: 8px;
 }
 
 
