@@ -337,7 +337,7 @@ svg{
     background-color:#404bbf;
 }
 .social-network-link:focus{
-    background-color:#404bbf;
+    background-color: #404bbf;
 }
 
 .social-network{
@@ -369,9 +369,7 @@ svg{
 
 .customers-item{
     width: calc((100% - 120px) / 6);
-    height: 88px;
-    
-    
+    height: 88px;  
 }
 
 .customers-link{
