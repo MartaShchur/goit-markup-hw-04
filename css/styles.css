@@ -257,11 +257,6 @@ p{
     margin-bottom: 8px;
 }
 
-svg{
-    width:64px; 
-    height: 64px;
-}
-
 /**
   |============================
   | DOING SECTION
@@ -342,7 +337,6 @@ svg{
 
 .social-network{
     fill:var(--footer-text-color);
-    padding: 12px;
 }
 
 .name{
@@ -381,7 +375,6 @@ svg{
     align-items: center;
     justify-content: center;
     color: var(--color-icon);
-    padding: 16px 32px;
 }
 
 .customers-link:hover{
@@ -396,6 +389,8 @@ svg{
 
 .clients{
     fill: currentColor;
+    /* width: 104px;
+    height: 56px; */
 }
 
 
@@ -486,7 +481,6 @@ svg{
 
 .social-media{
     fill: var(--footer-text-color);
-    padding: 8px;
 }
 
 
